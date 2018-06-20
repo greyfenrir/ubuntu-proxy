@@ -16,7 +16,7 @@ DAD: allowed everything
 
 KID: allowed yandex only
 
-```export {http,https}_proxy='http://kid:k@localhost:3128```
+```export {http,https}_proxy='http://kid:k@localhost:3128'```
 
 
 ## Checkers
