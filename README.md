@@ -21,12 +21,13 @@ KID: allowed yandex only
 
 ## Checkers
 
-cm: check mail
+`cm`: check mail
 
-cy: check yandex
+`cy`: check yandex
 
 ## Modify limitation:
 1. edit `/etc/squid/{squid.cfg,whitelist}` and save
+
 2. restart squid:
 
 ```# /etc/init.d/squid restart```
