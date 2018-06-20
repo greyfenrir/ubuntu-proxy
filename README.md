@@ -3,9 +3,9 @@
 ## Build & Run container
 
 ```
-$ docker build -t my_proxy
+$ docker build -t my_proxy .
 
-$ docker run --privileged -it my_proxy .
+$ docker run --privileged -it my_proxy
 ```
 
 ## Users
@@ -27,7 +27,7 @@ KID: allowed yandex only
 
 ## Modify limitations:
 
-1. edit `/etc/squid/{squid.cfg,whitelist}` and save
+1. edit `/etc/squid/{squid.conf,whitelist}` and save
 
 2. restart squid:
 
