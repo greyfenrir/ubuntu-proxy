@@ -25,7 +25,8 @@ KID: allowed yandex only
 
 `cy`: check yandex
 
-## Modify limitation:
+## Modify limitations:
+
 1. edit `/etc/squid/{squid.cfg,whitelist}` and save
 
 2. restart squid:
