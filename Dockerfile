@@ -18,6 +18,7 @@ RUN pip install git+https://github.com/Blazemeter/taurus@master
 
 # copy configs
 COPY ./squid/* /etc/squid/
+COPY ./scripts/* /usr/local/bin/
 COPY ./init.sh /usr/bin/
 
 ENTRYPOINT  init.sh && /bin/bash
