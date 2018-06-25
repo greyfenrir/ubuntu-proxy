@@ -1,0 +1,3 @@
+#!/bin/bash
+
+wget mail.ru --no-check-certificate -q &&  echo "ok" || echo "fail"
